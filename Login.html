@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.....</title>
+    <title>Coop Connect</title>
     <link rel="stylesheet" href="Css.css">
     <link rel="shortcurt icon" href="favicon_io/favicon-32x32.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -12,6 +12,8 @@
 <title>Login</title>
 
 <body>
+
+
     <div class="container">
         <div class="design">
             <div class="pill-1 rotate-45"></div>
@@ -26,21 +28,26 @@
                 <input type="text" placeholder="Usuario">
             </div>
             <div class="text-input">
-                <i class="ri-lock-fill"></i>
+                <i class="ri-lock-fill" id="btn-senha" onclick="mostrarsenha()"></i>
                 <input type="password" placeholder="Senha">
+                <img src="eye open 2.png">
+                <img src="eye closed 1.png">
+                
             </div>
             <button class="login-btn">LOGIN</button>
             <a href="#" class="forgot">Esqueceu Usuario/Senha?</a>
             <div class="create">
-                <a href="#">Cria sua conta</a>
+                <a href="cadastro.html">Cria sua conta</a>
                 <i class="ri-arrow-right-fill"></i>
+               
             </div>
         </div>
-    </div>  
+    </div> 
+
         </form>
     </div>
    
-
+<script src="Login.js"></script>
 
 </body>
 
